@@ -1,0 +1,33 @@
+{
+  "name": "@superset-ui/core",
+  "version": "0.17.81",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:development": "webpack --mode=development",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "5",
+    "dynamic-cdn-webpack-plugin": "^5.0.0",
+    "file-loader": "^6.2.0",
+    "module-to-cdn": "^3.1.5",
+    "path-browserify": "^1.0.1",
+    "style-loader": "2",
+    "webpack": "4",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.0.0-rc.0",
+    "@superset-ui/core": "0.17.81",
+    "html-webpack-plugin": "4.5.2",
+    "react": "16",
+    "react-loadable": "^5.5.0"
+  }
+}
