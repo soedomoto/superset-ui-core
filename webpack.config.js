@@ -6,7 +6,7 @@ module.exports = (env, argv) => {
   const mode = argv.mode ? argv.mode : "production";
 
   return {
-    entry: './node_modules/@superset-ui/core/lib/index.js',
+    entry: './node_modules/@superset-ui/core/esm/index.js',
     output: {
       libraryTarget: 'umd',
       globalObject: 'this',
